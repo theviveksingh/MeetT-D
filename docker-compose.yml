@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:6
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+  server:
+    build: .
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - MONGODB_URI=mongodb://mongodb:27017/meettd
+      - JWT_SECRET=meettd-super-secret-jwt-key-2024
+      - CLIENT_URL=http://localhost:5173
+    depends_on:
+      - mongodb
+
+volumes:
+  mongodb_data:

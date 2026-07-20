@@ -5,8 +5,9 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node --watch src/index.js"
+    "start": "node src/index-standalone.js",
+    "dev": "node --watch src/index-standalone.js",
+    "start:mongo": "node src/index.js"
   },
   "keywords": [],
   "author": "",

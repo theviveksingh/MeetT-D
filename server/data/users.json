@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "fc872f03-e32d-40fd-83fe-ec9a83bf67eb",
+    "email": "test@test.com",
+    "password": "$2b$10$ZU/n/2emZgiihsZndbxIXeWEOC8gpUkNapjtYKGKrQ8d/OBTxv5Se",
+    "displayName": "Test User",
+    "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Test User",
+    "createdAt": "2026-07-20T20:22:31.766Z"
+  },
+  {
+    "_id": "1c5c96d5-d721-4584-9efd-436908af1889",
+    "email": "demo@meettd.com",
+    "password": "$2b$10$Kv6A1iVv1rrNHUBITmTLKOT3a6TyPxCbhc.swKVYIRJ33fkshnlLy",
+    "displayName": "Demo User",
+    "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Demo User",
+    "createdAt": "2026-07-20T20:28:33.154Z"
+  }
+]
